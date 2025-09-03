@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+   <style>
+        body {
+            background: white;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            background-image: 
+            url("myfolder\bg-simplify-section-desktop.svg");
+           
+        } 
+
+         .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+       }
+       li {
+        display: inline;
+        margin: 10px;
+       }
+       .nav-links {
+        text-align: center;
+        text-decoration-line: none;
+       }
+       a {
+        color: rgb(39, 33, 26);
+        text-decoration-line: none;
+       }
+       
+       a:hover {
+        color: brown;
+        font-size: 20px;
+        text-decoration: underline;
+       }
+        header { 
+            justify-content: space-between;
+            align-items: center;
+        }
+        #PEN {
+            column-gap: 20px;
+        }
+       /* .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: antiquewhite;
+       } */
+       li {
+        display: inline;
+        margin: 10px;
+       }
+       .logo {
+        width: 120px;
+        height: 80px;
+        border-radius: 5px;
+        inline-size: auto;
+       }
+       .tagline {
+        font-size: 12px;
+        font-style: italic;
+       }
+       .tagline:hover{
+        color: chocolate;
+        font-size: 14px;
+        text-align: end;
+       }
+       .nav-links {
+        text-align: center;
+        text-decoration-line: none;
+       }
+       a {
+        color: rgb(39, 33, 26);
+        text-decoration-line: none;
+       }
+       a:hover {
+        color: brown;
+        font-size: 20px;
+        text-decoration: underline;
+       }
+      
+    button:hover {
+        color: darksalmon;
+        font-size: 14px;
+    }
+    .search-bar input[type="text"] {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+    .search-bar {
+    
+        max-width: 400px;
+        margin: 20px auto;
+        align-items: center;
+         border-radius: 1000px;
+            background-color: pink;
+            padding: 20px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin-bottom: 0;
+            margin-top: 5px;
+            padding-bottom: 5px;
+    }
+        
+       li {
+        display: inline;
+        margin: 10px;
+       }
+       .nav-links {
+        text-align: center;
+        text-decoration-line: none;
+       }
+       a {
+        color: rgb(39, 33, 26);
+        text-decoration-line: none;
+       }
+       a:hover {
+        color: brown;
+        font-size: 20px;
+        text-decoration: underline;
+       }
+       .bd-commend {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 45px;
+            gap: 95px; 
+            margin: 150px;
+            height: auto;
+            margin-top: 0;
+
+        }
+        .flex-container-3 {
+            display: block;
+            text-align: start;
+            margin-top: 0;
+        }
+        .bt-learn {
+            padding: 15px;
+            border-radius: 25px;
+            background-color: pink;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            border-color: #ccc;
+        }
+        .bt-learn:hover {
+            background-color: pink;
+            color: linear-gradient( to bottom, #ccc, pink, whitesmoke);
+            font-style: bold;
+            cursor: pointer;
+        }
+        .img-log img {
+            border-radius: 10px;
+        }
+        .ad-commend {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 45px;
+            gap: 95px; 
+            margin: 150px;
+            height: auto;
+            margin-top: 0;
+
+        }
+        .ad-commend p {
+            color: whitesmoke;
+        }
+        .pan-log button {
+            border-radius: 45px;
+            background-color: pink;
+            border-color: #ccc;
+            text-decoration-color: rgb(114, 50, 61);;
+        }
+        .background {
+            background-image: 
+            url('myfolder/bg-tablet-pattern.svg (1).svg');
+            background-size: cover;
+            background-position: center;
+             height: 100%;
+             position: relative; 
+            color: white;
+            
+        
+        }
+        .overlay {
+            background-color:rgba(0, 0, 0, 0.5);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .foot {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            background-color: black;
+            align-items: start;
+            justify-content: start;
+            margin: 0;
+            padding: 20px;
+            gap: 30px;
+        }
+        .ft-img img {
+            border-radius: 15px;
+        }
+         .foot-li li{
+            text-align: center;
+            display: block;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-decoration-color: #ccc;
+            text-decoration: #ccc;
+        }
+        .fit {
+            color: #ccc;
+            text-align: center;
+        }
+        .d {
+            padding: 20px;
+            margin: 40px;
+            justify-content: end;
+        }
+        .d button {
+            border-radius: 25px;
+            background-color: pink;
+            padding: 20px;
+            font-style: bold;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        
+        }
+        .d:hover {
+            box-sizing: border-box;
+            box-shadow: #ccc;
+        }
+        .lll {
+            text-align: center;
+            color: chocolate;
+            background-color: pink;
+            margin: 0;
+            padding: 20px;
+            
+        }
+        .pap {
+            display: grid;
+            background-image: url(myfolder/bg-tablet-pattern.svg);
+            background-repeat: no-repeat;
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+            margin: 75px;
+            padding: 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+            background-color: white;
+            border-radius: 25px;
+            border: 10px;
+            box-shadow: #ccc;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .pap img {
+            border-radius: 100px;
+            margin-top: 0;
+            padding-top: 0;
+            position: relative;
+        }
+
+        h3 {
+            text-align: center;
+            color:  palevioletred;
+        
+        }
+
+        .item {
+            background-color: whitesmoke;
+            border-radius: 65px;
+            box-shadow: #ccc;
+        }
+        
+    </style>
+</head>
+<body>
+    
+     <header>
+            <div class="flex-container">
+                <!-- Logo Image -->
+                <img src="myfolder\WhatsApp Image 2025-06-26 at 9.39.21 AM.jpeg" alt="My Website Logo" class="logo">
+                <p class="tagline">Veez beauty world, where creativity gives back your confidence<br>....your beauty, our 
+                    priority.</p>
+
+                    <!-- Navigation Bar -->
+                <nav>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="index.html" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="About Us.html" target="_blank">About Us</a> 
+                        </li>
+                        <li>
+                            <a href="Services.html" target="_blank">Services</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html" target="_blank">Contact</a>
+                        </li>
+                        <LI>
+                             <a href="https://WhatsApp.com/d/code=c43INCd8AU" target="_blank" id="PEN">Book</a>
+                        </LI>
+                    </ul>
+                </nav><div class="search-bar">
+                            <a href="#" target="_blank"><img src="myfolder\icon-facebook.svg"/></a>  <img src="myfolder\icon-youtube.svg"/> 
+                            <a href="#" target="_blank"><img src="myfolder\icon-twitter (1).svg"/></a>  <img src="myfolder\icon-pinterest.svg"/>
+                    </div><br>
+
+            </div>
+             
+        </header>
+
+        <div class="background">
+        <div class="overlay">
+
+            <h1>About Us</h1>
+
+         <div class="bd-commend">
+            
+        <div class="flex-container-3">
+            <h1><b>Make<br>Veez Beauty<br>Your World</b></h1>
+            <p>At <strong>Veez Beauty World</strong>,<br>we bring out the beauty in you<br>with expert care and creativity.<br>
+            We specialize in <strong>hairstyles and makeup</strong> for all occassions, offerring premium services
+        for <strong>brides, kids</strong>, and everyone in betwween.</p><br><br>
+            <a href="Services.html" target="_blank"><button class="bt-learn"><b>check-out</b></button><br></a>
+
+            <!-- <div class="p-img">
+                <p><img src="myfolder\client-databiz.svg"/>  <img src="myfolder\client-audiophile.svg"/> 
+                <img src="myfolder\client-meet.svg"/>  <img src="myfolder\client-maker.svg"/></p>
+            </div> -->
+        </div>
+
+        <div class="img-log">
+            <img src="myfolder\WhatsApp Image 2025-06-26 at 9.39.21 AM.jpeg" width="auto" height="450px"/>
+        </div>
+    </div> <br>
+
+    <div class="ad-commend">
+        <div class="flex-container-4">
+            <h2><b>What makes<br>Veez Beauty World</b><br> unique? </h2>
+            <p><strong>Veez Beauty World</strong><br>stands out for it's expert<br>bridal and kids' beauty services,<br>
+            personalized care, and a friendly team, in a clean,<br>stylish space. We use high-quality products to give<br>
+            you beautiful, lasting results-because you deserve <strong> the best...</strong>
+
+            <!-- <div class="p-img">
+                <p><img src="myfolder\client-databiz.svg"/>  <img src="myfolder\client-audiophile.svg"/> 
+                <img src="myfolder\client-meet.svg"/>  <img src="myfolder\client-maker.svg"/></p>
+            </div> -->
+        </div>
+
+        <div class="pan-log">
+            <button>01</button> <b>Bridal & kids  Beauty Expert</b><br>We specialize in both <strong>elegant 
+                bridal styling and <br>fun, gentle care for kids,</strong> making us a one-stop <br>
+                beauty destination
+                for families.<br><br>
+
+            <button>02</button> <b>personalized Touch</b> <br>Every client is special. We listen to your needs<br>
+             and deliver a <strong>custom look</strong> that fits your style,<br> personality, and event.<br><br>
+
+            <button>03</button> <b>Skilled & Friendly Professionals</b> <br>Our team is
+             <strong>experienced, creative, and friendly</strong>, <br>making every visit relaxing and<br>
+             enjoyable.<br><br>
+
+            <button>04</button> <b>Clean, Calm, & Stylish Environment</b> <br>Our salon is beautifully set up <br>
+            to give you that luxury feel while staying warm and welcoming.<br><br>
+            
+            <button>05</button> <b>Quality Products, Lasting Results</b> <br>We use only<br>
+            <strong>trusted beauty brands</strong> <br>that are safe and effective - because 
+            your skin<br>and hair deserve the best.
+        </div>
+        </div>
+           
+        </div>
+    </div>
+
+            <h3>What they have said!</h3>
+
+    <div class="pap">
+        <div class="item">
+            <img src="myfolder\WhatsApp Image 2025-07-26 at 3.51.01 PM (3).jpeg"/><br><br><b>Promise Hassan</b>
+            <p>Veez world is all they say,<br>
+             their environment is calm and clean,<br>
+              services here are the best.</p>
+        </div> 
+
+        <div class="item">
+            <img src="myfolder\WhatsApp Image 2025-07-26 at 3.51.01 PM (3).jpeg"/><br><br><b>Victory Momoh</b>
+            <p>The best decision for me<br> is making veez beauty world <br>
+            my choice and my confidence is ever <br> building. Thank you Veez beauty.</p>
+        </div>
+
+        <div class="item">
+            <img src="myfolder\WhatsApp Image 2025-07-26 at 3.51.01 PM (2).jpeg"/><br><br><b>Abibat B.</b>
+             <p>Veez world is all they say,<br>
+             their environment is calm and clean,<br>
+              services here are the best.</p>
+        </div>
+    </div>
+
+    <div class="lll">
+        <p>Let <strong>Veez Beauty World</strong> be your trusted beauty<br>
+        destination-where your confidence begins<br> with your look.</p>
+    </div>
+     <div class="ft">
+                    <footer class="foot">
+                    <div class="ft-img">
+                        <p style="color: #ccc;">  <img src="myfolder\myfolder\WhatsApp Image 2025-06-26 at 9.39.21 AM.jpeg" style="height: 50px;" width="50px"> 
+                        <br><b>Veez Beauty World</b></p><br><br>
+
+                        <div class="p-img">
+                            <a href="#" target="_blank"><img src="myfolder\icon-facebook.svg"/></a>  <img src="myfolder\icon-youtube.svg"/> 
+                            <a href="#" target="_blank"><img src="myfolder\icon-twitter (1).svg"/></a>  <img src="myfolder\icon-pinterest.svg"/>
+                    </div>
+                    </div><br>
+                    
+                        
+
+                        <div class="ft-links">
+                            <ul class="foot-li">
+                        <li>
+                            <a href="index.html" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="About Us.html" target="_blank">About Us</a> 
+                        </li>
+                        <li>
+                            <a href="Services.html" target="_blank">Services</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html" target="_blank">Contact</a>
+                        </li>
+                        <LI>
+                             <a href="https://WhatsApp.com/d/code=c43INCd8AU" target="_blank" id="PEN">Book</a>
+                        </LI>
+                            </ul>
+                        </div>
+
+                        <div class="fit">
+                            <h4>Location:</h4>
+                            <p>Suite 001 V&V Lane, <br>Maitaima, Abuja.</p>
+
+                            <h4>Opening Hours:</h4>
+                            <p>Monday - Saturday: 9:00 AM - 4:00 PM<br>
+                            Sunday: By Appointment Only</p>
+                        </div>
+
+                        <div class="fit">
+                            <h4>Contact:</h4>
+                            <p>Phone/WhatsApp: +2349044241530 <br>
+                            Email: info@veezbeautyworld.com</p>
+                        </div>
+
+                        <div class="d">
+                          <a href="Contact.html" target="_blank"> <button>Book Now</button></a>
+                        </div>
+                    </footer>
+            </div>
+</body>
+</html>

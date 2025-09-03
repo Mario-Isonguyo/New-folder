@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Veez Beauty world Website</title>
+    <style>
+        body {
+            background: linear-gradient( to bottom, antiquewhite, pink, whitesmoke);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header { 
+            justify-content: space-between;
+            align-items: center;
+        }
+        #PEN {
+            column-gap: 20px;
+        }
+       .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: antiquewhite;
+       }
+       li {
+        display: inline;
+        margin: 10px;
+       }
+       .logo {
+        width: 120px;
+        height: 80px;
+        border-radius: 5px;
+        inline-size: auto;
+       }
+       .tagline {
+        font-size: 12px;
+        font-style: italic;
+       }
+       .nav-links {
+        text-align: center;
+        text-decoration-line: none;
+       }
+       a {
+        color: rgb(39, 33, 26);
+        text-decoration-line: none;
+       }
+       p:hover {
+        color: chocolate;
+        font-size: 14px;
+        text-align: end;
+       }
+       a:hover {
+        color: brown;
+        font-size: 20px;
+        text-decoration: underline;
+       }
+       .slider {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 20px;
+       }
+       .slides {
+        display: flex;
+        width: 500%;
+        animation: slide 20s infinite;
+        animation-delay: 20s infinite;
+       }
+       .slides img {
+        width: 250px;
+        height: 350px;
+        object-fit: cover;
+       }
+       @keyframes slide {
+        0% { transform: 
+    translateX(0%);}
+        20% { transform:
+    translateX(0%);}
+        25% { transform:
+    translateX(-100%); }
+        45% { transform: 
+    translateX(-100%); }
+        50% { transform:
+    translateX(-200%); }
+        70% { transform:
+    translateX(-200%); }
+        75% { transform:
+    translateX(-300%); }
+        95% { transform:
+    translateX(-300%); }
+        100%{ transform: 
+    translateX(-400%); }
+    }
+    .search-bar button {
+        background-color: chocolate;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        color: darksalmon;
+        font-size: 14px;
+    }
+    .search-bar input[type="text"] {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+    .search-bar {
+        display: flex;
+        max-width: 400px;
+        margin: 20px auto;
+        align-items: center;
+    }
+    #mum {
+        border-radius: 60px;
+        width: auto;
+        height: auto;
+    
+    }
+    .ono {
+        border-radius: 40px;
+    }
+    .container {
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    video {
+        max-width: 100px;
+        width: 400px;
+        height: auto;
+        border:2px solid #ccc;
+    }
+    .text-content {
+        flex: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    .content {
+        display: inline;
+        background-color: rgb(238, 208, 212);
+    }
+    .foot {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            background-color: black;
+            align-items: start;
+            justify-content: start;
+            margin: 0;
+            padding: 20px;
+            gap: 30px;
+        }
+        .ft-img img {
+            border-radius: 15px;
+        }
+         .foot-li li{
+            text-align: center;
+            display: block;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-decoration-color: #ccc;
+            text-decoration: #ccc;
+        }
+        .fit {
+            color: #ccc;
+            text-align: center;
+        }
+        .d {
+            padding: 20px;
+            margin: 40px;
+            justify-content: end;
+        }
+        .d button {
+            border-radius: 25px;
+            background-color: pink;
+            padding: 20px;
+            font-style: bold;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        
+        }
+        .d:hover {
+            box-sizing: border-box;
+            box-shadow: #ccc;
+        }
+
+    </style>
+</head>
+<body>
+        <header>
+            <div class="flex-container">
+                <!-- Logo Image -->
+                <img src="myfolder\WhatsApp Image 2025-06-26 at 9.39.21 AM.jpeg" alt="My Website Logo" class="logo">
+                <p class="tagline">Veez beauty world, where creativity gives back your confidence<br>....your beauty, our 
+                    priority.</p>
+
+                    <!-- Navigation Bar -->
+                <nav>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="index.html" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="About Us.html" target="_blank">About Us</a> 
+                        </li>
+                        <li>
+                            <a href="Services.html" target="_blank">Services</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html" target="_blank">Contact</a>
+                        </li>
+                        <LI>
+                             <a href="https://WhatsApp.com/d/code=c43INCd8AU" target="_blank" id="PEN">Book</a>
+                        </LI>
+                    </ul>
+                </nav> 
+           
+            <form class="search-bar">
+                <button class="mum" type="submit">Search</button>
+            </form>
+            </div>
+        </header>
+
+        <!-- fresh page here -->
+    <h1 style="font-style:italic;">Welcome to the Veez Beauty world...</h1>
+
+        <div id="mum">
+          <img src="myfolder\WhatsApp Image 2025-06-26 at 10.06.52 AM (1).jpeg" alt="The CEO" height="400px" class="ono"/><br>
+          <h3>The CEO</h3>
+        </div><hr>
+        <br>
+    <div class="slider">
+        <div class="slides">
+            <img src="myfolder\WhatsApp Image 2025-06-26 at 10.06.51 AM.jpeg"/>
+            <img src="myfolder\WhatsApp Image 2025-06-26 at 9.39.22 AM.jpeg"/>
+            <img src="myfolder\WhatsApp Image 2025-06-26 at 9.39.22 AM (1).jpeg"/>
+            <img src="myfolder\WhatsApp Image 2025-06-26 at 9.39.21 AM (1).jpeg"/>
+            <img src="myfolder\WhatsApp Image 2025-06-10 at 10.41.21 PM.jpeg"/>
+        </div>
+    </div>
+    
+    <br><hr> <br> 
+    <div class="container">
+        <!-- video clip -->
+         <video controls>
+            <source src="myfolder\WhatsApp Video 2025-07-01 at 2.28.47 AM.mp4" type="video/mp4">
+         </video>
+
+         <!-- text write-up -->
+          <div class="text-content">
+            <h2>Veez world vibes</h2>
+            <p>The Veez beauty world is fill with good vibes and styles, not only to beautify you but also 
+                to brighten your mood by giving you back your confidence through their Services...
+            this clip have more to say about their Services and their fame.</p>
+            </p>
+          </div>
+
+          <!-- video clip -->
+           <video controls>
+            <source src="myfolder\WhatsApp Video 2025-07-01 at 2.28.54 AM.mp4" type="video/mp4"/>
+           </video>
+    </div>
+    <br> <hr>
+    <!-- SOCIAL MEDIA -->
+    <div class="content">
+        <h2>Connect with Veez world</h2>
+        <a href="https://www.facebook.com/priceless.jewel.5099940" target="_blank">Facebook</a>
+         | <a href="https://www.instagram.com/momohvirtue?igsh=YzljYTK10Dg3Zg==" target="_blank">Instagram</a> | <a href="https://WhatsApp.com/d/code=c43INCd8AU"
+          target="_blank">WhatsApp</a>
+    </div><br><br>
+    
+    <div class="ft">
+                    <footer class="foot">
+                    <div class="ft-img">
+                        <p style="color: #ccc;">  <img src="myfolder\myfolder\WhatsApp Image 2025-06-26 at 9.39.21 AM.jpeg" style="height: 50px;" width="50px"> 
+                        <br><b>Veez Beauty World</b></p><br><br>
+                        
+                        <div class="p-img">
+                            <a href="#" target="_blank"><img src="myfolder\icon-facebook.svg"/></a>  <img src="myfolder\icon-youtube.svg"/> 
+                            <a href="#" target="_blank"><img src="myfolder\icon-twitter (1).svg"/></a>  <img src="myfolder\icon-pinterest.svg"/>
+                    </div>
+                    </div><br>
+                    
+                        
+
+                        <div class="ft-links">
+                            <ul class="foot-li">
+                        <li>
+                            <a href="index.html" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="About Us.html" target="_blank">About Us</a> 
+                        </li>
+                        <li>
+                            <a href="Services.html" target="_blank">Services</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html" target="_blank">Contact</a>
+                        </li>
+                        <LI>
+                             <a href="https://WhatsApp.com/d/code=c43INCd8AU" target="_blank" id="PEN">Book</a>
+                        </LI>
+                            </ul>
+                        </div>
+
+                        <div class="fit">
+                            <h4>Location:</h4>
+                            <p>Suite 001 V&V Lane, <br>Maitaima, Abuja.</p>
+
+                            <h4>Opening Hours:</h4>
+                            <p>Monday - Saturday: 9:00 AM - 4:00 PM<br>
+                            Sunday: By Appointment Only</p>
+                        </div>
+
+                        <div class="fit">
+                            <h4>Contact:</h4>
+                            <p>Phone/WhatsApp: +2349044241530 <br>
+                            Email: info@veezbeautyworld.com</p>
+                        </div>
+
+                        <div class="d">
+                          <a href="Contact.html" target="_blank"> <button>Book Now</button></a>
+                        </div>
+                    </footer>
+            </div>
+    
+</body>
+</html>

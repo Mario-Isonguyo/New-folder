@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Order Form</title>
+</head>
+<body>
+    <form>
+     <div style="background-color: rgb(168, 168, 30);">
+         <h1>Let's build a simple drink order form</h1><br>
+
+        <p>Personal Info:</p>
+        <!--put down your info here-->
+        <label for="first name">First Name:</label> 
+        <input type="text" id="first name" name="Info" placeholder="Enter your first name"><br><br>
+        <label for="last name">Last Name:</label>
+        <input type="text" id="last name" name="Info" placeholder="Enter your last name"><br><br>
+        <label for="email address">Email Address:</label>
+        <input type="email" id="email address" name="Info" placeholder="Enter your email" maxlength="20"><br><br>
+        <label for="phone number">Phone Number:</label>
+        <input type="number" id="phone number" name="Info" placeholder="Enter your phone number" maxlength="11"><br><br> 
+        <input type="submit"><br>
+
+        <p>Select a drink:</p> 
+        <!--write the order here-->
+        <input type="radio" id="water" name="drink" value="water">
+        <label for="water">Water</label><br>
+        <input type="radio" id="coke" name="drink" value="coke">
+        <label for="coke">Coke</label><br>
+        <input type="radio" id="sprite" name="drink" value="sprite">
+        <label for="sprite">Sprite</label><br>
+
+        <p>Select extras:</p>
+        <!--write the extras here-->
+        <input type="checkbox" id="ice" name="extras" value="ice">
+        <label for="ice">Ice</label><br>
+        <input type="checkbox" id="lemon" name="extras" value="lemon">
+        <label for="lemon">Lemon</label><br>
+        <input type="checkbox" id="sugar" name="extras" value="sugar">
+        <label for="sugar">Sugar</label><br>
+
+        <p>Select Size:</p>
+        <!--write the size here-->
+        <select name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select><br><br>
+
+        <button name="submit">Place Order</button>
+        <button name="reset">Clear</button><br><br>
+     </div>
+    <div style="background-color: rgb(106, 23, 23);" >
+        <p>Feedbacks:</p>
+        <!--write your feedback here-->
+        <textarea name="message" style="width: 200px; height: 100px; resize:none;"></textarea> <br>
+        <button name="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
